@@ -1,0 +1,9 @@
+resources/public/js/compiled/devcards/
+resources/public/js/compiled/dev/
+resources/public/js/compiled/min/out
+.lein-repl-history
+.nrepl-port
+target/
+/figwheel_server.log
+
+.#*

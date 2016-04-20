@@ -1,0 +1,52 @@
+# Learn YAML syntax at https://en.wikipedia.org/wiki/YAML#Sample_document
+
+build-matrix:
+  - - CI Master 5.6.x
+    - Master 5.6.x Nightly
+    - Release 5.5.4.x
+
+  - - Video.Portal.Nightly
+    - Halko.Nightly
+
+  - - CI Master 5.5.x
+    - Master 5.5.x Nightly
+    - Release 5.5.3.x
+
+  - - CI Master 5.4.x
+    - Master 5.4.x Nightly
+    - Release 5.4.3.x
+
+apis:
+  version2: https://localhost/BuildMonitorStaging/api/Builds/GetBuildsWithUpdateTime/
+  recent-events: https://localhost/BuildMonitorStaging/api/RecentEvents/RecentEvents/
+
+build-status-poll-timeout-ms: 10000
+
+common-errors:
+  - match-regex: "Building solution.*?failed, see output for further details"
+    css-class-name: "compilation-error"
+    display-text:
+      short-explanation: Compilation error
+
+  - match-regex: "ValidateMerges"
+    css-class-name: "validate-merges"
+    display-text:
+      short-explanation: Pending merges
+      full-explanation: There are merge candidates to the target branch. Merge or discard them and try again.
+
+  - match-regex: "Test failure!"
+    css-class-name: "test-failure"
+    display-text:
+      short-explanation: Test failure
+
+  - match-regex: "The process cannot access the file"
+    css-class-name: "file-access-error"
+    display-text:
+      short-explanation: Cannot access file
+      full-explanation: Some shared file on the build server cannot be accessed
+
+  - match-regex: "Access to the path '.*?' is denied.*type UnauthorizedAccessException"
+    css-class-name: "file-access-error"
+    display-text:
+      short-explanation: Unauthorized Access Exception
+      full-explanation: Some shared file on the build server cannot be accessed

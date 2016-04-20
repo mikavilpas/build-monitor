@@ -1,0 +1,40 @@
+{
+    "Builds": [
+        {
+            "StartTime": "2016-03-03T13:36:51+0200",
+            "FinishTime": "2016-03-03T13:45:55+0200",
+            "Description": "Instant: Unit Tests",
+            "Status": true,
+            "Id": "Instant: Unit Tests",
+            "BuildNumber": "2889",
+            "BuildDiagnosticsUri": "http://anni.protacon.com:800/viewLog.html?buildId=16601&buildTypeId=Muster_Tests_InstantUnitTests",
+            "LatestCommit": {
+                "CommitterDisplayName": "joka",
+                "Date": "2016-03-03T13:35:47+0200",
+                "Comment": "#76468 Service method for fetching fault data for progress tracking items."
+            },
+            "RunningBuild": {
+                "StartTime": "2016-03-04T16:01:25+0200"
+            },
+            "LatestSuccessfulBuild": {
+                "StartTime": "2016-03-03T13:36:51+0200",
+                "FinishTime": "2016-03-03T13:45:55+0200"
+            }
+        },
+        {
+            "StartTime": "2016-03-04T05:16:51+0200",
+            "FinishTime": "2016-03-04T11:02:09+0200",
+            "Description": "Instant: Acceptance Tests, Category: Misc",
+            "Status": false,
+            "Id": "Instant: Acceptance Tests, Category: Misc",
+            "BuildNumber": "1533",
+            "BuildDiagnosticsUri": "http://anni.protacon.com:800/viewLog.html?buildId=16608&buildTypeId=Muster_Tests_SeleniumTest_InstantSeleniumTests",
+            "LatestCommit": {
+                "CommitterDisplayName": "joka",
+                "Date": "2016-03-03T13:35:47+0200",
+                "Comment": "#76468 Service method for fetching fault data for progress tracking items."
+            }
+        }
+    ],
+    "UpdateTime": "2016-03-04T16:04:28+0200"
+}

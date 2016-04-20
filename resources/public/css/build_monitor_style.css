@@ -1,0 +1,224 @@
+body {
+    background-color: #222222 !important;
+}
+
+#main-app-area {
+    height: 100vh;
+}
+
+div.build-status {
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid black;
+    font-size: x-large;
+
+    height: 9em;
+    margin: 1px;
+    flex: 1;
+
+    /* default color, will be overridden for build statuses and common errors */
+    background-color: white;
+}
+
+div.build-status a {color: #333;}
+
+.horizontal {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.no-padding {padding: 0 !important;}
+.align-center {align-items: center;}
+.justify-end {justify-content: flex-end;}
+.align-this-center {align-self: center;}
+.space-between {justify-content: space-between;}
+span.icon {margin-right: 7px;}
+
+.heart {
+    color: #EA3C53;
+    font-size: xx-large;
+}
+
+.vertical {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.commit-message {font-size: x-small;}
+
+.build-status-left {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.build-info-background {
+    flex: 0 0 auto;
+    background-color: rgba(0,0,0, .5);
+    padding: 5px 5px;
+    min-width: 130px;
+}
+
+.build-info-content {
+    font-weight: bolder;
+    color: rgba(255,255,255, 0.6);
+    font-size: small;
+    font-family: 'Varela Round', sans-serif;
+}
+
+span.hash {color: gray;}
+.build-additional-info {font-size: small;}
+.build-info .build-time {font-size: small;}
+div.success {background-color: #29901b;}
+div.failure {background-color: red;}
+div.pending-merges {background-color: #ff7f00;}
+div.not-found {background-color: lightgray;}
+#monitor {background-color: #333;}
+#cards-link {color: wheat;}
+#cards-link:hover {color: grey;}
+.has-tooltip {border-bottom: 1px dotted gray;}
+
+.common-build-error.test-failure {background-color: #BF4F51;}
+.common-build-error.validate-merges {background-color: #FF7F00;}
+.common-build-error.file-access-error {background-color: darkcyan;}
+.common-build-error.compilation-error {background-color: gray;}
+
+span.common-error-label {
+    font-size: small;
+    background-color: #222;
+    align-self: flex-start;
+}
+
+span.merge-candidates-label {
+    font-size: small;
+    background-color: #ddd;
+    color: #333;
+    text-align: left;
+    /* make the text wrap no matter what*/
+    /* - long words should not stretch the build container */
+    /* for IE 10 */
+    white-space: normal !important;
+    align-self: flex-start;
+}
+
+.merge-candidates-dialog-contents {
+    font-weight: normal;
+    text-align: left;
+}
+
+.merge-candidates-dialog-contents .heading {
+    font-family: 'Varela Round', sans-serif;
+    color: #222;
+    background-color: #ddd;
+    padding: 5px;
+    padding-left: 13px;
+    border: 1px solid white;
+    text-align: left;
+    line-height: 1;
+}
+
+.build-progress-bar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.build-progress-bar .background {
+    background-color: #222;
+    padding: 2px;
+    width: 100%;
+}
+
+.build-progress-bar .foreground {
+    height: 10px;
+    background-color: lightgray;
+    font-size: smaller;
+}
+
+.build-progress-bar .overtime {
+    height: 10px;
+    background-color: gray;
+    font-size: smaller;
+}
+
+.build-broken-for {
+    margin-top: 5px;
+    font-size: small !important;
+}
+
+.pointer {cursor: pointer;}
+.move-cursor {cursor: move !important;}
+
+.config-icon {
+    font-size: x-large;
+    color: #666;
+    text-shadow: 1px 1px 1px black;
+}
+
+.build-matrix-editor-builds {
+    flex-grow: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.text-like-link {color: lightgray !important;}
+
+.react-reorderable-item-active {
+  border: 1px dashed #666;
+  background: none;
+}
+.react-reorderable-item-active * {display: none;}
+.react-reorderable-handle {position: absolute;}
+
+.recent-events-component {
+    font-family: 'Varela Round', sans-serif;
+    font-size: small;
+
+    margin-left: 3px;
+    margin-right: 3px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 90vh;
+
+    line-height: 1.1em;
+}
+
+.recent-event-item {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.recent-event-header .how-long-ago {
+    margin-left: 2em;
+    /* lift the label up a bit */
+    line-height: 0;
+}
+
+.recent-event-link {
+    /* overwrite bootstrap style */
+    padding: 7px 12px !important;
+    border-radius: 0px !important;
+}
+
+.recent-event-header {
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.recent-event-border {
+    /* default style, overridden in other classes */
+    border-left: 17px solid gray;
+    border-bottom: 3px solid white;
+}
+
+.recent-event-border.blue {border-color: darkcyan;}
+.recent-event-border.orange {border-color: #FF7F00;}
+.recent-event-labels {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.recent-event-label {
+    margin-right: 3px;
+    white-space: normal !important;
+    text-align: left !important;
+}

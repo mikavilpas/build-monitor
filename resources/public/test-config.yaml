@@ -1,0 +1,19 @@
+# This file is for test use only, create a product version based on
+# this in order to have a default configuration automatically present.
+# Learn YAML syntax at https://en.wikipedia.org/wiki/YAML#Sample_document
+
+build-matrix:
+  - - "Instant: Unit Tests"
+
+apis:
+  version2: http://localhost:3449/test.json
+  recent-events: http://localhost:3449/recent-events.json
+
+build-status-poll-timeout-ms: 10000
+
+common-errors:
+  - match-regex: "ValidateMerges"
+    css-class-name: "validate-merges"
+    display-text:
+      short-explanation: Pending merges
+      full-explanation: There are merge candidates to the target branch. Merge or discard them and try again.
