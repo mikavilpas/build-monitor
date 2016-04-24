@@ -28,7 +28,6 @@
                 :FinishTime s/Str
                 :BuildNumber s/Str
                 :RunningBuild (s/maybe api-running-build)
-                :LastChangedByDisplayName s/Str
                 :LatestCommit api-commit
                 :BuildLog [s/Str]
                 :FirstBreakingCommit (s/maybe api-commit)
