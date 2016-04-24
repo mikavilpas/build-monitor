@@ -70,8 +70,6 @@
                   ["Oriental Treats"
                    "Bug Blues"]]})
 
-;; todo needs recent-events too
-
 (defcard-rg app
   (let [builds-atom (reagent/atom {:builds builds
                                    :config mock-config})
