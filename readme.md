@@ -61,3 +61,9 @@ You can start the development environment like so:
     repl and call cljs for the environment you want.
 
 Figwheel builds and development time commands are defined in dev/user.clj
+
+Once the previous commands have been executed, you can navigate to one of these
+pages:
+- http://localhost:3449/
+- http://localhost:3449/index-dev.html
+- http://localhost:3449/cards.html
