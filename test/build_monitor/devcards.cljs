@@ -13,6 +13,7 @@
             [build-monitor.test.utils-tests :as utils-tests]
             [build-monitor.test.app.app-environment-tests :as app-environment-tests]
             [build-monitor.special-effects.backend-stuck-indicator-tests :as backend-stuck-indicator-tests]
+            [build-monitor.mock-data.api-build-creator-tests :as api-build-creator-tests]
             [build-monitor.storage-tests :as storage-tests]
             [schema.core :as s]))
 
@@ -34,3 +35,4 @@ config-components-tests/include-me
 app-environment-tests/include-me
 backend-stuck-indicator-tests/include-me
 recent-events-components-tests/include-me
+api-build-creator-tests/include-me
