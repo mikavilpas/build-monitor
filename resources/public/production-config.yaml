@@ -1,24 +1,22 @@
 # Learn YAML syntax at https://en.wikipedia.org/wiki/YAML#Sample_document
 
 build-matrix:
-  - - CI Master 5.6.x
-    - Master 5.6.x Nightly
-    - Release 5.5.4.x
+  - - The best build
+    - Kitten generator site
+    - Hotfixes to production
 
-  - - Video.Portal.Nightly
-    - Halko.Nightly
+  - - Oops build
+    - Where is my build?
 
-  - - CI Master 5.5.x
-    - Master 5.5.x Nightly
-    - Release 5.5.3.x
+  - - Legacy 1.0
+    - Legacy 2.0
 
-  - - CI Master 5.4.x
-    - Master 5.4.x Nightly
-    - Release 5.4.3.x
+  - - Oriental Treats
+    - Bug blues
 
 apis:
-  version2: https://localhost/BuildMonitorStaging/api/Builds/GetBuildsWithUpdateTime/
-  recent-events: https://localhost/BuildMonitorStaging/api/RecentEvents/RecentEvents/
+  version2: http://localhost:3449/mock-data/builds.json
+  recent-events: http://localhost:3449/mock-data/recent-events.json
 
 build-status-poll-timeout-ms: 10000
 

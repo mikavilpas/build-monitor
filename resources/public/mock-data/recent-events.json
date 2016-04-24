@@ -1,0 +1,53 @@
+{
+    "Events": [
+        {
+            "EventType"          : "Build",
+            "TriggeredByUser"    : "Alpha Beta",
+            "Time"               : "2016-03-04T18:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "Build triggered automatically",
+            "Labels"             : ["Legacy 1.0", "This commit changed translations"]
+        },
+        {
+            "EventType"          : "Commit",
+            "TriggeredByUser"    : "Charlie Delta",
+            "Time"               : "2016-03-04T17:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "This is another commit message.",
+            "Labels"             : ["Hotfixes to production"]
+        },
+        {
+            "EventType"          : "Commit",
+            "TriggeredByUser"    : "Kylo Ren",
+            "Time"               : "2016-03-04T16:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "Fix the build",
+            "Labels"             : ["Legacy 1.0"]
+        },
+        {
+            "EventType"          : "Commit",
+            "TriggeredByUser"    : "Alpha Beta",
+            "Time"               : "2016-03-04T16:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "Change everything",
+            "Labels"             : ["Hotfixes to production"]
+        },
+        {
+            "EventType"          : "Commit",
+            "TriggeredByUser"    : "Alpha Beta",
+            "Time"               : "2016-03-04T16:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "This is a commit message.",
+            "Labels"             : ["Hotfixes to production"]
+        },
+        {
+            "EventType"          : "Commit",
+            "TriggeredByUser"    : "Alpha Beta",
+            "Time"               : "2016-03-04T16:00:00+0200",
+            "AdditionalInfoUri"  : "http://example.com",
+            "ExplanationMessage" : "This is a commit message.",
+            "Labels"             : ["Hotfixes to production"]
+        }
+    ],
+    "UpdateTime": "2016-03-04T19:00:00+0200"
+}
