@@ -1,40 +1,273 @@
 {
+    "UpdateTime": "2016-03-04T16:04:28+0200",
     "Builds": [
         {
-            "StartTime": "2016-03-03T13:36:51+0200",
-            "FinishTime": "2016-03-03T13:45:55+0200",
-            "Description": "Instant: Unit Tests",
             "Status": true,
-            "Id": "Instant: Unit Tests",
-            "BuildNumber": "2889",
-            "BuildDiagnosticsUri": "http://anni.protacon.com:800/viewLog.html?buildId=16601&buildTypeId=Muster_Tests_InstantUnitTests",
+            "FinishTime": "2016-04-23T15:16:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": null,
             "LatestCommit": {
-                "CommitterDisplayName": "joka",
-                "Date": "2016-03-03T13:35:47+0200",
-                "Comment": "#76468 Service method for fetching fault data for progress tracking items."
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 959,
+                "Comment": "Fix everything, also optimize",
+                "CommitterDisplayName": "Antti Alpha"
             },
-            "RunningBuild": {
-                "StartTime": "2016-03-04T16:01:25+0200"
-            },
-            "LatestSuccessfulBuild": {
-                "StartTime": "2016-03-03T13:36:51+0200",
-                "FinishTime": "2016-03-03T13:45:55+0200"
-            }
+            "RunningBuild": null,
+            "Description": "The best build",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": "#branch-info",
+            "Id": "The best build",
+            "BuildNumber": "The best build.816",
+            "BuildLog": []
         },
         {
-            "StartTime": "2016-03-04T05:16:51+0200",
-            "FinishTime": "2016-03-04T11:02:09+0200",
-            "Description": "Instant: Acceptance Tests, Category: Misc",
             "Status": false,
-            "Id": "Instant: Acceptance Tests, Category: Misc",
-            "BuildNumber": "1533",
-            "BuildDiagnosticsUri": "http://anni.protacon.com:800/viewLog.html?buildId=16608&buildTypeId=Muster_Tests_SeleniumTest_InstantSeleniumTests",
+            "FinishTime": "2016-04-23T16:08:25",
+            "LatestSuccessfulBuild": {
+                "FinishTime": "2016-04-23T15:27:25",
+                "StartTime": "2016-04-23T14:52:25"
+            },
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:20:25",
+                "Id": 718,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
             "LatestCommit": {
-                "CommitterDisplayName": "joka",
-                "Date": "2016-03-03T13:35:47+0200",
-                "Comment": "#76468 Service method for fetching fault data for progress tracking items."
-            }
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 743,
+                "Comment": "Increase kitten throughput, this is a really long commit message that should not make the build monitor component stretch oddly, la la la la la la la la la",
+                "CommitterDisplayName": "Marcus Von Kitten :3"
+            },
+            "RunningBuild": {
+                "StartTime": "2016-04-24T14:42:25"
+            },
+            "Description": "Kitten generator site",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Kitten generator site",
+            "BuildNumber": "Kitten generator site.560",
+            "BuildLog": []
+        },
+        {
+            "Status": false,
+            "FinishTime": "2016-04-23T15:43:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-23T22:12:25",
+                "Id": 217,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 901,
+                "Comment": "I think this works",
+                "CommitterDisplayName": "Dingo Delta"
+            },
+            "RunningBuild": null,
+            "Description": "Hotfixes to production",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Hotfixes to production",
+            "BuildNumber": "Hotfixes to production.600",
+            "BuildLog": []
+        },
+        {
+            "Status": false,
+            "FinishTime": "2016-04-23T15:43:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:24:25",
+                "Id": 603,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 286,
+                "Comment": "Oops, the last commit was broken",
+                "CommitterDisplayName": "Dingo Delta"
+            },
+            "RunningBuild": null,
+            "Description": "Oops build",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Oops build",
+            "BuildNumber": "Oops build.286",
+            "BuildLog": []
+        },
+        {
+            "Status": "build-not-found",
+            "FinishTime": "2016-04-23T16:03:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": null,
+            "LatestCommit": null,
+            "RunningBuild": null,
+            "Description": "Where is my build?",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Where is my build?",
+            "BuildNumber": "Where is my build?.962",
+            "BuildLog": []
+        },
+        {
+            "Status": true,
+            "FinishTime": "2016-04-23T15:28:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": null,
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 413,
+                "Comment": "commit message",
+                "CommitterDisplayName": "Ovadiah Frankel"
+            },
+            "RunningBuild": null,
+            "Description": "Legacy 1.0",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Legacy 1.0",
+            "BuildNumber": "Legacy 1.0.556",
+            "BuildLog": []
+        },
+        {
+            "Status": false,
+            "FinishTime": "2016-04-23T15:52:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:37:25",
+                "Id": 10,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 792,
+                "Comment": "commit message",
+                "CommitterDisplayName": "Choni Goldblum"
+            },
+            "RunningBuild": null,
+            "Description": "Legacy 2.0",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [],
+            "BranchInformationUri": null,
+            "Id": "Legacy 2.0",
+            "BuildNumber": "Legacy 2.0.950",
+            "BuildLog": []
+        },
+        {
+            "Status": false,
+            "FinishTime": "2016-04-23T15:06:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:49:25",
+                "Id": 724,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 982,
+                "Comment": "Nom nom, more test data",
+                "CommitterDisplayName": "Case Rondition"
+            },
+            "RunningBuild": null,
+            "Description": "Oriental Treats",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [
+                {
+                    "Commits": [
+                        {
+                            "AdditionalInfoUri": "#",
+                            "Date": "2016-04-24T14:52:25",
+                            "Id": 50,
+                            "Comment": "Try out new things",
+                            "CommitterDisplayName": "Woot woot"
+                        },
+                        {
+                            "AdditionalInfoUri": "#",
+                            "Date": "2016-04-24T14:52:25",
+                            "Id": 580,
+                            "Comment": "Aaw yiss, now it works",
+                            "CommitterDisplayName": "Mr. Anderson, the son of man"
+                        }
+                    ],
+                    "TargetBranch": "Oriental Treats",
+                    "SourceBranch": "Kitten generator site"
+                }
+            ],
+            "BranchInformationUri": null,
+            "Id": "Oriental Treats",
+            "BuildNumber": "Oriental Treats.317",
+            "BuildLog": []
+        },
+        {
+            "Status": false,
+            "FinishTime": "2016-04-23T16:18:25",
+            "LatestSuccessfulBuild": null,
+            "FirstBreakingCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T13:35:25",
+                "Id": 217,
+                "Comment": "Commit message",
+                "CommitterDisplayName": "Committer name"
+            },
+            "LatestCommit": {
+                "AdditionalInfoUri": "#",
+                "Date": "2016-04-24T14:52:25",
+                "Id": 770,
+                "Comment": "I can't get anything right",
+                "CommitterDisplayName": "Kylo Ren"
+            },
+            "RunningBuild": null,
+            "Description": "Bug Blues",
+            "BuildDiagnosticsUri": "about:blank",
+            "StartTime": "2016-04-23T14:52:25",
+            "MergeCandidates": [
+                {
+                    "Commits": [
+                        {
+                            "AdditionalInfoUri": "#",
+                            "Date": "2016-04-24T14:52:25",
+                            "Id": 685,
+                            "Comment": "Change stuff",
+                            "CommitterDisplayName": "Hon Salo"
+                        }
+                    ],
+                    "TargetBranch": "Bug blues",
+                    "SourceBranch": "Oriental Treats"
+                }
+            ],
+            "BranchInformationUri": null,
+            "Id": "Bug Blues",
+            "BuildNumber": "Bug Blues.945",
+            "BuildLog": []
         }
-    ],
-    "UpdateTime": "2016-03-04T16:04:28+0200"
+    ]
 }
