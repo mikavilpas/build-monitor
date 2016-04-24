@@ -6,8 +6,8 @@ build-matrix:
   - - "Instant: Unit Tests"
 
 apis:
-  version2: http://localhost:3449/test.json
-  recent-events: http://localhost:3449/recent-events.json
+  version2: http://localhost:3449/mock-data/builds.json
+  recent-events: http://localhost:3449/mock-data/recent-events.json
 
 build-status-poll-timeout-ms: 10000
 
