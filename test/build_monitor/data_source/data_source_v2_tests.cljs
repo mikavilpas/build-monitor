@@ -12,7 +12,7 @@
 
 (def include-me :yep)
 
-(def real-api-url "https://localhost/BuildMonitorStaging/api/Builds/GetBuildsWithUpdateTime/")
+(def real-api-url "https://localhost/mock-data/builds.json")
 (def data-source (let [common-errors []]
                    (data/DataSourceForVersion2. real-api-url common-errors)))
 
