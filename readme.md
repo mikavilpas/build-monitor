@@ -38,17 +38,11 @@ There are three builds:
 
 You can start the development environment like so:
 
-    ;; in a command prompt in the project root, do this:
-    lein repl
+- start emacs
+- open `project.clj`
+- M-x cider-jack-in-clojurescript
+- navigate to the cljs repl buffer
 
-    ;; Write this directly to the repl.
-    ;; This will start figwheel, which is an http server that reloads
-    ;; clojurescript code to the browser
-    (start)
-
-    ;; Then open an editor (I use emacs) and connect to the "lein
-    ;; repl" you opened earlier.
-    ;;
     ;; When connected, write
 
     (cljs "devcards")
@@ -56,9 +50,6 @@ You can start the development environment like so:
 
     or to connect to the dev build, write
     (cljs "dev")
-
-    If you want to switch the environment, enter :cljs/quit to the
-    repl and call cljs for the environment you want.
 
 Figwheel builds and development time commands are defined in dev/user.clj
 
