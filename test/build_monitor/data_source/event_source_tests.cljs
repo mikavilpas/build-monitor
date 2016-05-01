@@ -16,7 +16,7 @@
 (def test-config test-utils/test-config)
 (def recent-events-response
   (test-utils/channel->atom (go (<! (common/get-body
-                                     "/recent-events.json")))))
+                                     "/mock-data/recent-events.json")))))
 
 (defcard-rg test-api-call-results
   recent-events-response)
