@@ -1,5 +1,3 @@
-(Readme not finished)
-
 Visually follow real-time build status
 - Is my application working?
 - Can I publish my application?
@@ -31,10 +29,11 @@ Actions can be:
 How to get started developing
 ======
 
-There are three builds:
+There are four builds:
 - `min`: production, minified build. Accessible at `index.html`
-- `dev`: not minified. Located at `index-dev.html`
+- `dev`: Mimics production; like `min` but for development. Located at `index-dev.html`
 - `devcards`: Tests and isolated test environments. Located at `devcards.html`
+- `demo`: like `devcards` but minified. Used in the interactive demo on github.
 
 You can start the development environment like so:
 
@@ -62,3 +61,4 @@ pages:
 - http://localhost:3449/
 - http://localhost:3449/index-dev.html
 - http://localhost:3449/cards.html
+- http://localhost:3449/demo.html

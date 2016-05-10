@@ -21,7 +21,15 @@
                 :asset-path "js/compiled/dev/out"
                 :output-to  "resources/public/js/compiled/dev/build_monitor.js"
                 :output-dir "resources/public/js/compiled/dev/out"
-                :source-map-timestamp true }}
+                :source-map-timestamp true}}
+    {:id "demo"
+     :source-paths ["src" "test"]
+     :figwheel { :devcards true }
+     :compiler {:main       "build-monitor.test.devcards"
+                :asset-path "js/compiled/demo/demo_out"
+                :output-to  "resources/public/js/compiled/demo/build_monitor_demo.js"
+                :output-dir "resources/public/js/compiled/demo/demo_out"
+                :source-map-timestamp true}}
     {:id "min"
      :source-paths ["src"]
      :compiler {:main       "build-monitor.core"
