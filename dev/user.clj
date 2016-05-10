@@ -28,8 +28,7 @@
      :compiler {:main       "build-monitor.test.devcards"
                 :asset-path "js/compiled/demo/demo_out"
                 :output-to  "resources/public/js/compiled/demo/build_monitor_demo.js"
-                :output-dir "resources/public/js/compiled/demo/demo_out"
-                :source-map-timestamp true}}
+                :output-dir "resources/public/js/compiled/demo/demo_out"}}
     {:id "min"
      :source-paths ["src"]
      :compiler {:main       "build-monitor.core"
