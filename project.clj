@@ -33,11 +33,4 @@
   :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
   :source-paths ["src" "dev" "test"]
 
-  :cljsbuild {:builds [{:id "min"
-                        :source-paths ["src"]
-                        :compiler {:main       "build-monitor.core"
-                                   :asset-path "js/compiled/min/out"
-                                   :output-to  "resources/public/js/compiled/min/build_monitor.js"
-                                   :optimizations :advanced}}]}
-
   :figwheel { :css-dirs ["resources/public/css"] })
