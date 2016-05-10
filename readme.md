@@ -41,9 +41,13 @@ You can start the development environment like so:
 - start emacs
 - open `project.clj`
 - M-x cider-jack-in-clojurescript
+- navigate to the clj repl buffer
+    ;; When connected, write
+    (start)
+
 - navigate to the cljs repl buffer
 
-    ;; When connected, write
+    ;; enter to the buffer:
 
     (cljs "devcards")
     to connect to the devcards build
