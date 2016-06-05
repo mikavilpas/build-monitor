@@ -13,7 +13,8 @@
             [build-monitor.special-effects.backend-stuck-indicator-tests :as backend-stuck-indicator-tests]
             [build-monitor.mock-data.api-build-creator-tests :as api-build-creator-tests]
             [build-monitor.storage-tests :as storage-tests]
-            [schema.core :as s]))
+            [schema.core :as s]
+            [build-monitor.data-source.travis-client-tests :as travis-client-tests]))
 
 (s/set-fn-validation! false)
 
@@ -32,3 +33,4 @@ app-environment-tests/include-me
 backend-stuck-indicator-tests/include-me
 recent-events-components-tests/include-me
 api-build-creator-tests/include-me
+travis-client-tests/include-me
