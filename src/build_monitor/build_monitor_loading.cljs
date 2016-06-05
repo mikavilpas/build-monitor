@@ -33,8 +33,9 @@
 (defn- start-getting-builds [state-atom]
   (let [config (:config @state-atom)
         url (-> config :apis :version2)
-        data-source (data-source/->DataSourceForVersion2 url
-                                                         (:common-errors config))]
+        data-source nil #_(data-source/->DataSourceForVersion2 url
+                                                               (:common-errors config))
+        ]
     (utils/repeated-timed-calls
      (:build-status-poll-timeout-ms config)
      (fn update-builds! []
