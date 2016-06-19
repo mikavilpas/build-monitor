@@ -4,9 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.170"]
-                 [devcards "0.2.1-6"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "1.8.51"]
+                 [devcards "0.2.1-7"]
                  [reagent "0.5.1"]
                  [org.clojure/core.async "0.2.374"]
                  [cljs-http "0.1.38"]
@@ -22,7 +22,7 @@
                  [cljsjs/react-reorderable "0.2.2-0"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
-            [lein-figwheel "0.5.0-6"]]
+            [lein-figwheel "0.5.4-3"]]
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled"
                                     "target"]
